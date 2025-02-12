@@ -16,10 +16,6 @@ public abstract  class Transformer extends Asset{
     public String getCollingMethod() {
         return CollingMethod;
     }
-    // @Override
-    // public double ageFactorInPercent() {
-    //     return 0;
-    // }
     @Override
     public String getType() {
         return "Transformer";
