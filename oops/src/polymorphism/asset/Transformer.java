@@ -16,8 +16,4 @@ public abstract  class Transformer extends Asset{
     public String getCollingMethod() {
         return CollingMethod;
     }
-    @Override
-    public String getType() {
-        return "Transformer";
-    }
 }
